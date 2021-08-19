@@ -16,7 +16,7 @@ echo "Enter the VPS Subdomain Hostname, if not available, please click Enter"
 read -p "Hostname: " host
 echo "IP=$host" >> /var/lib/premium-script/ipvps.conf
 #install ssh ovpn
-wget https://raw.githubusercontent.com/Endka22/automain/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/lesta-1/wisang/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/lesta-1/wisang/main/vpn/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 #installwg
 wget https://raw.githubusercontent.com/lesta-1/wisang/main/wg/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
